@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 ARG GITHUB_ACTOR="surfnet-niels"
-ARG GITHUB_TOKEN="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"
+ARG GITHUB_TOKEN=""
 ARG GITHUB_REPOSITORY="surfnet-niels/simplesamlphp.github.io"
 
 COPY docs/build-docs.sh /tmp/build-docs.sh
